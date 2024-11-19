@@ -10,3 +10,37 @@
 }
 
 
+/* style.css */
+
+/* Стили для шапки */
+header {
+    background-color: #4CAF50; /* Цвет фона */
+    color: white; /* Цвет текста */
+    padding: 20px; /* Отступы */
+    display: flex; /* Используем flexbox */
+    justify-content: space-between; /* Распределяем элементы */
+    align-items: center; /* Центрируем по вертикали */
+}
+
+.logo h1 {
+    margin: 0; /* Убираем отступы у заголовка */
+}
+
+nav ul {
+    list-style: none; /* Убираем маркеры списка */
+    padding: 0; /* Убираем отступы */
+    display: flex; /* Используем flexbox для навигации */
+}
+
+nav ul li {
+    margin-left: 20px; /* Отступы между пунктами */
+}
+
+nav ul li a {
+    color: white; /* Цвет ссылок */
+    text-decoration: none; /* Убираем подчеркивание */
+}
+
+nav ul li a:hover {
+    text-decoration: underline; /* Подчеркивание при наведении */
+}
