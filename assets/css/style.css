@@ -9,38 +9,58 @@
     box-sizing: inherit;
 }
 
+body {
+    font-family: 'Sixtyfour Convergence', sans-serif;
+    line-height: 1.6;
+}
 
-/* style.css */
-
-/* Стили для шапки */
 header {
-    background-color: #4CAF50; /* Цвет фона */
-    color: white; /* Цвет текста */
-    padding: 20px; /* Отступы */
-    display: flex; /* Используем flexbox */
-    justify-content: space-between; /* Распределяем элементы */
-    align-items: center; /* Центрируем по вертикали */
+    background-color: #4CAF50;
+    color: white;
+    padding: 20px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .logo h1 {
-    margin: 0; /* Убираем отступы у заголовка */
+    margin: 0;
 }
 
 nav ul {
-    list-style: none; /* Убираем маркеры списка */
-    padding: 0; /* Убираем отступы */
-    display: flex; /* Используем flexbox для навигации */
+    list-style: none;
+    padding: 0;
+    display: flex;
 }
 
 nav ul li {
-    margin-left: 20px; /* Отступы между пунктами */
+    margin-left: 30px;
 }
 
 nav ul li a {
-    color: white; /* Цвет ссылок */
-    text-decoration: none; /* Убираем подчеркивание */
+    color: white;
+    text-decoration: none;
+    transition: color 0.3s;
 }
 
 nav ul li a:hover {
-    text-decoration: underline; /* Подчеркивание при наведении */
+    text-decoration: underline;
+}
+
+main {
+    padding: 20px 40px;
+}
+
+.about {
+    margin-bottom: 20px;
+}
+
+footer {
+    background-color: #222;
+    color: #ddd;
+    text-align: center;
+    padding: 15px 0;
+    width: 100%;
+    position: relative;
+    bottom: 0;
 }
